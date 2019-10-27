@@ -1,0 +1,16 @@
+body{
+    margin-top: 20px;
+}
+.card{
+    padding: 50px;
+    background-color: #ccc;
+}
+
+.form-control{
+    margin-top: 10px;
+    margin-bottom:  10px;
+}
+.btn-1{
+    margin-top: 10px;
+    width: 100%;
+}
