@@ -1,6 +1,32 @@
 body{
+
+	color: #ffff;
 	margin: 0;
-	padding: 0;
+	padding: 10px 10px;
 	background: #34495e;
+	text-align: justify;
 }
 
+.section h1{
+	text-align: center;
+}
+
+.section p{
+	font-size: 20px;
+	padding: 30px;
+}
+
+::-webkit-scrollbar{
+	width: 0;
+}
+#progressbar{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	
+	width: 15px;
+	height: 100%;
+	border-radius: 10px;
+	background: linear-gradient(to top, #fcb045, #fd1d1d, #833ab4);
+}
