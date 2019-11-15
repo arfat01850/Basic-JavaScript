@@ -1,0 +1,18 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:#000;
+
+}
+.carousel{
+	height: 700px;
+	perspective: 600px;
+}
+.carousel .carousel-item
+{
+	width: 400px;
+}
+.carousel .carousel-item img
+{
+	width: 100%;
+}
