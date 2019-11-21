@@ -17,3 +17,14 @@
 	display: none;
 	overflow: hidden;
 }
+
+
+.accordion:after{
+	content: '\02795';
+	font-size: 15px;
+	float: right;
+}
+
+.active:after{
+	content: '\2796';
+}
