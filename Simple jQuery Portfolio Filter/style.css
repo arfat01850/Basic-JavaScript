@@ -12,12 +12,15 @@ ul{
 }
 ul li{
 	list-style: none;
-	float: left;
-	padding: 10px 20px;
-	color: #ffff;
-	border: 1px solid #ffff;
-	margin-right: 15px;
-	text-transform: uppercase;
+    float: left;
+    padding: 10px 20px;
+    color: #ffff;
+    border: 1px solid #ffff;
+    margin-right: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 900;
+    font-family: sans-serif;
 }
  ul li:hover, .active{
  	background-color: #fff;
@@ -33,15 +36,15 @@ ul li{
 
  .full-area .box{
  	width: 23%;
- 	height: 100px;
- 	line-height: 100px;
- 	text-align: center;
- 	color: rgba(255,255,255,.5);
- 	font-size: 30px;
- 	float: left;
- 	box-sizing: border-box;
- 	margin: 10px;
- 	text-transform: uppercase;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    text-transform: uppercase;
  }
 
  .website{
