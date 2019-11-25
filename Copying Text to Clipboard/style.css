@@ -15,11 +15,13 @@ body{
 }
 
 .content-area{
+    position: relative;
 	padding-top: 5%;
 }
 
 
 textarea#myInp {
+    
    height: 219px;
     width: 60%;
     outline: none;
@@ -27,9 +29,14 @@ textarea#myInp {
     padding: 12px;
     text-align: justify;
     font-family: serif;
+    background: #929292;
+      text-transform: uppercase;
+    color: gray;
 }
 
 button#btnCopy {
+
+    
     background: brown;
     height: 35px;
     width: 10%;
