@@ -5,8 +5,9 @@ body{
 
 }
 .carousel{
-	height: 700px;
-	perspective: 600px;
+	height: 500px;
+    perspective: 600px;
+	
 }
 .carousel .carousel-item
 {
@@ -15,4 +16,12 @@ body{
 .carousel .carousel-item img
 {
 	width: 100%;
+}
+
+.hedding h1{
+	text-align: center;
+	color: #fff;
+	font-family: 'Calistoga', cursive;
+	text-transform: uppercase;
+	background-color: green;
 }
